@@ -36,8 +36,15 @@ p{
        height: 15px;
     margin-left: 400px;
     width: 10px;
+position: relative;
 
-
+}
+.leftbutton i{
+left: -6px;
+position: relative;
+bottom: 3px;
+font-size: 10px;
+color: white;
 }
 h2{
     margin-left: 85px;
@@ -48,6 +55,13 @@ h2{
        height: 15px;
     margin-left: 380px;
     width: 10px;
+}
+.leftbutton1 i{
+left: -6px;
+position: relative;
+bottom: 3px;
+font-size: 10px;
+color: white;
 }
    
 .rightcontainer{
@@ -112,17 +126,31 @@ h2{
 
     display: flex;
 }
+.uppermain1{
+    height: 40px;
+margin-top: -50px;
+    display: flex;
+}
 .upper1{
   
     width: 70%;
+    display: flex;
 }
 .upper2{
       
     width: 30%;
 }
+
 .checkbox input{
   margin-top: 10px;
-    margin-left: 5px;
+    margin-left: -2px;
+    width: 10px;
+    height: 10px;
+      
+    background-color: transparent;
+     
+     cursor: pointer;
+     border: 2px solid white;
     
 }
 .checkbox label{
@@ -130,15 +158,32 @@ h2{
 }
 .upper2 button{
     height: 15px;
-    margin-top: 10px;
-    margin-left: 3px;
+    width: 15px;
+   margin-left:px;
+    position: relative;
 }
-
+.upper2 button i{
+    color:white;
+    margin-left: -8px;
+    margin-top:-30px;
+    margin-bottom: px;
+    position: relative;
+    bottom: 3.5px;
+    left: 1.5px;
+    font-size: 10px;
+}
+.upper3 button{
+    height: 15px;
+    width: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
 .lowermain textarea{
-    width: 98%;
+ width: 98%;
 background-color: transparent;
 color: white;
-height: 100px;
+height: 50px;
+
 border: 2px solid white;
 }
 .lowermain textarea::placeholder{
@@ -148,13 +193,14 @@ border: 2px solid white;
 
 .main2{
     height: 70px;
-  
+  margin-top: -40px;
     width: 420px;
 }
 .main2 button{
-    height: 40px;
+    height: 45px;
     width: 380px;
-    margin-left: 10px;
+    margin-left: 0px;
+
 }
 .main2 p1{
     font-size: 28px;
@@ -178,4 +224,18 @@ border: 2px solid white;
   margin-left: 2px;
   
 }
- 
+.check1{
+    display: none;
+}
+.tick{
+    background-color: transparent;
+    display: inline-flex;
+    width: 10px;
+    height: 25%;
+    border: 1px solid rgb(251, 248, 248);
+}
+ .abb{
+    font-size: 10px;
+ }
+
+
