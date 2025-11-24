@@ -73,66 +73,60 @@ body{
     margin-top: 18px;
     margin-right: 0px;
 }
-.first{
-    margin-top: 120px;
+
+.maincontainer1{
+    
+    height: 400px;
+    width: 99%;
+ justify-content: center;
+
+}
+.div1{
  
-  
+ height: 80px;
+ display: flex;
+ gap: 15px;
+ align-items: center;
 }
-.top{
-    display: flex;
+.div1 img{
+    height: 50px;
+    margin-left: 100PX;
 }
-.pic{
-    display: flex;
-        margin-top: 45px;
-    margin-left: 150px;
-}
-.headinga{
-      margin-top: -75px;
-    margin-left: 220px;
-      font-family: sans-serif;
+.div1 h1{
+    font-size: 60px;
+    font-family: sans-serif;
     font-weight: 1000;
-   font-size: 70px;
 }
-.firstmain{
-
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.main1{
-    width: 80%;
-
-        height: 250px;
-    display: flex;
-}
-.dortu{
-    
-    width: 20%;
-   
-    flex-direction: column;
-    
-}
-.dortu img{
-    margin-left: 20px;
-    height: 150px;
-    padding-bottom: 20px;
-}
-.dortu p1{
-     margin-left: 20px;
-     font-size: 20px;
-     font-family: sans-serif;
-     font-weight: 1000;
-     color: #98242a;
-     padding-top: 60px;
-}
-.dortu p2{
+.div2{
   
-     margin-left: 60px;
-     font-size: 17px;
-     font-family: sans-serif;
-     font-weight: 1000;
-     color: rgb(8, 8, 8);
+    height: 315px;
+    width: 80%;
+   margin-left: 10%;
+     display: flex;
+  
+    gap: 55px;
+}
+.bvbimage{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bvbimage img{
+    height: 150px;
+}
+.bvbimage p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: red;
+    margin-bottom: 0;
+}
+.bvbimage p1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color:black;
 }
 .endcontainer{
     height: 400px;
